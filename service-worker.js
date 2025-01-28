@@ -1,58 +1,11 @@
-const CACHE_NAME_V1 = 'p-receipt-cache-v1';
-const CACHE_NAME_V2 = 'whenfive-cache-v2';
-const CACHE_NAME_V3 = 'cunsensus-cache-v3';
-const CACHE_NAME_V4 = 'wygomp-cache-v4';
+const CACHE_NAME_V1 = 'wygomp-cache-v1';
+const CACHE_NAME_V2 = 'p-receipt-cache-v2';
+const CACHE_NAME_V3 = 'whenfive-cache-v3';
+const CACHE_NAME_V4 = 'cunsensus-cache-v4';
+
 
 const urlsToCacheV1 = [
   '/',
-  '/p-receipt.html',
-  '/p-receipt.css',
-  '/p-receipt.js',
-  '/images/priceyfav.png',
-  '/images/img3.avif',
-  '/images/wygofav.jpg',
-  '/font/doto.ttf',
-  '/font/munyon',
-  '/wygomp.html',
-  '/whenfive.html',
-  'https://urls.grow.me/rb2xoN7Ne',
-  '/cunsensus.html',
-  'https://www.rakuten.com',
-  'https://google.com/maps',
-  '/images/store.jpeg',
-  '/images/receipt.jpg',
-  'mailto:techniquecole7@gmail.com',
-];
-
-const urlsToCacheV2 = [
-  '/whenfive.html',
-  '/whenfive.css',
-  '/whenfive.js',
-  '/images/high53.jpg',
-  '/images/high54.jpg',
-  '/images/high52.jpg',
-  '/wygomp.html',
-  '/cunsensus.html',
-  '/p-receipt.html',
-  '/fonts/munyon.ttf',
-  'mailto:techniquecole7@gmail.com',
-];
-
-const urlsToCacheV3 = [
-  '/cunsensus.html',
-  '/cunsensus.ccs',
-  '/cunsensus.js',
-  '/images/consensus.jpg',
-  '/images/consensus2.webp',
-  '/wygomp.html',
-  '/p-receipt.html',
-  '/whenfive.html',
-  '/fonts/Unna-Regular.ttf',
-  '/fonts/Unna-Bold.ttf',
-  'mailto:techniquecole7@gmail.com',
-];
-
-const urlsToCacheV4 = [
   '/wygomp.html',
   '/wygomp.js',
   '/images/wygo.png',
@@ -69,6 +22,54 @@ const urlsToCacheV4 = [
   '/whenfive.html',
   '/p-receipt.html',
   '/cunsensus.html',
+];
+
+const urlsToCacheV2 = [
+  '/p-receipt.html',
+  '/p-receipt.css',
+  '/p-receipt.js',
+  '/images/priceyfav.png',
+  '/images/img3.avif',
+  '/images/wygofav.jpg',
+  '/font/doto.ttf',
+  '/font/munyon',
+  '/wygomp.html',
+  '/whenfive.html',
+  'https://urls.grow.me/rb2xoN7Ne',
+  '/cunsensus.html',
+  'https://www.rakuten.com',
+  'https://google.com/maps',
+  '/images/store.jpeg',
+  '/images/receipt.jpg',
+  'mailto:techniquecole7@gmail.com',  
+];
+
+const urlsToCacheV3 = [
+  '/whenfive.html',
+  '/whenfive.css',
+  '/whenfive.js',
+  '/images/high53.jpg',
+  '/images/high54.jpg',
+  '/images/high52.jpg',
+  '/wygomp.html',
+  '/cunsensus.html',
+  '/p-receipt.html',
+  '/fonts/munyon.ttf',
+  'mailto:techniquecole7@gmail.com',  
+];
+
+const urlsToCacheV4 = [
+  '/cunsensus.html',
+  '/cunsensus.ccs',
+  '/cunsensus.js',
+  '/images/consensus.jpg',
+  '/images/consensus2.webp',
+  '/wygomp.html',
+  '/p-receipt.html',
+  '/whenfive.html',
+  '/fonts/Unna-Regular.ttf',
+  '/fonts/Unna-Bold.ttf',
+  'mailto:techniquecole7@gmail.com',
 ];
 
 self.addEventListener('install', event => {
