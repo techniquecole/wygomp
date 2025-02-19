@@ -3,19 +3,19 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta X-UA-Compatible content="ie=edge">
-    <meta name="Description" content="WYGOMP(What You Got On) my petro is a free utility used to prepare drivers and/or carpoolers of necessary fuel expenses">
+    <meta name="Description" content="WYGOMP(What You Got On) my petro is a free utility used to prepare owners and/or carpoolers of necessary fuel expenses">
     <meta name="keywords" content="fuel, gas, carpool, trip, travel, miles, obligation, gallon, cost, expense, money, budget, fuel efficiency, price per gallon"> 
     <meta name="author" content="Intellifly & GitHub Co-pilot">
     <link rel="icon" type="image/png" href="images/wygo.png">
     <link rel="manifest" href="manifest.json">
     <link rel="service-worker" href="service-worker.js">
-    <title>wygomp</title>
+    <title>WYGOMP</title>
     <style>
         html, body {
             height: 25%;
             margin: 0;
             display: flex;
-            flex-direction: column;
+            flex-direction: column;   
         }
         body {
             background-color: slategrey;
@@ -36,7 +36,7 @@
             margin-top: 20px;
             font-size: 45px;
             font-weight: 2em;
-            overflow: auto;
+            overflow: auto;    
         }
         .button:hover{
             animation-name: glow;
@@ -62,6 +62,8 @@
             height: 100%;
             background: transparent;
             z-index: 1;
+        
+            
         }
         footer {
             background-color: rgba(2, 119, 27, 0.966);
@@ -72,7 +74,7 @@
 </head>
 <body>
     <div class="content">
-        <h3><p>It is completely <mark style="background-color:hwb(59 0% 0% / 0.671)">FREE</mark> to utilize <mark style="background-color:hwb(59 0% 0% / 0.671)">WYGOmp</mark>. Have <mark style="background-color:hwb(59 0% 0% / 0.671)">FUN,</mark> Please <mark style="background-color:hwb(59 0% 0% / 0.671)">DRIVE</mark> safe. <mark style="background-color:hwb(59 0% 0% / 0.671)">FOCUS</mark>, remaining <mark style="background-color:hwb(59 0% 0% / 0.671)">DEFENSIVE</mark>; street <mark style="background-color:hwb(59 0% 0% / 0.671)">SIGNS</mark> and road <mark style="background-color:hwb(59 0% 0% / 0.671)">RULES</mark> are <mark style="background-color:hwb(59 0% 0% / 0.671)">YOUR</mark> best <mark style="background-color:hwb(59 0% 0% / 0.671)">FRIEND</mark>.</p></h3>
+        <h3><p>It is completely <mark style="background-color:hwb(59 0% 0% / 0.671)">FREE</mark> to utilize <mark style="background-color:hwb(59 0% 0% / 0.671)">WYGOMP</mark>. Have <mark style="background-color:hwb(59 0% 0% / 0.671)">FUN,</mark> Please <mark style="background-color:hwb(59 0% 0% / 0.671)">DRIVE</mark> safe. <mark style="background-color:hwb(59 0% 0% / 0.671)">FOCUS</mark>, remaining <mark style="background-color:hwb(59 0% 0% / 0.671)">DEFENSIVE</mark>; street <mark style="background-color:hwb(59 0% 0% / 0.671)">SIGNS</mark> and road <mark style="background-color:hwb(59 0% 0% / 0.671)">RULES</mark> are <mark style="background-color:hwb(59 0% 0% / 0.671)">YOUR</mark> best <mark style="background-color:hwb(59 0% 0% / 0.671)">FRIEND</mark>.</p></h3>
         <div style="position: relative;">
             <iframe id="vivagoIframe" scrolling="no" src="https://vivago.ai/home" width="100%" height="185" style="border: 0;"></iframe>
             <div class="iframe-overlay"></div>
@@ -101,14 +103,14 @@
         <a href="https://www.udio.com" target="_blank"> 
             <img src="images/udio2.png" title="Link to Udio" alt="A white BMW parked in outer space with Jupiter as the back drop."></a>
             <video controls autoplay src="videos/awtumn.mp4" title="Enlarge for best results. Designed in Vivago" width="304" alt="A sombering distant view of a vast orange and amber landscape on an Autumn morning.">
-                <source="awtumn.WebM">
+                
 
             </video>
             <a href="https://www.vivago.ai/home" target="_blank" title="Link to Vivago">
             <img id="pic" src="images/wygo.png" height="290" width= "605">
             </a>
         <hr>
-        <h2><p style="color:rgb(12, 26, 14);"><b>Discover the <span style="color:darkgreen"><u><i>Total Fuel Cost</i></u></span> and number of gallons needed with WYGOMP.</b></p></h2>
+        <h2><p style="color:rgb(12, 26, 14);"><b>Discover the <span style="color:darkgreen"><u><i>Total Fuel Cost</i></u></span> and number of gallons needed with WYGO.</b></p></h2>
         <form onsubmit="calculateTripCost(); return false;">
             <br>
             <br>
@@ -157,7 +159,7 @@
             });
         }
     </script>
-    
+    </div>
 </body>
 
 </html>
