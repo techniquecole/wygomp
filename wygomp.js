@@ -14,11 +14,6 @@ function calculateTripCost() {
     document.getElementById('gallons_needed').innerText = gallonsNeeded.toFixed(2) + " gallons";
     document.getElementById('total_cost').innerText = "$" + totalCost.toFixed(2);
 }
-if (/Android/i.test(navigator.userAgent)) {
-    document.querySelector('.install-button').style.display = 'block';
-} else {
-    document.querySelector('.install-button').style.display = 'none';
-}
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
